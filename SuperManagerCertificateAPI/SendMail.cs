@@ -57,7 +57,7 @@ namespace SuperManagerCertificateAPI
                 smtp.Host = "smtp.gmail.com";
                 smtp.EnableSsl = true;
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential("ajaxparmar@gmail.com", "9034402793");
+                smtp.Credentials = new NetworkCredential("mail@xyz.com", "Password");
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Send(message);
                 fileInfo = null;
